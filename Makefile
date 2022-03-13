@@ -6,7 +6,7 @@ AR				= ar rcs
 
 RM				= rm -f
 
-LIBFTPF_LINK	= -L.. -l:../libftprintf.a
+LIBFTPF_LINK	= -L.. -l:libftprintf.a
 
 all:			
 				make all -C ../
